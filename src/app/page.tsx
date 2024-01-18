@@ -1,8 +1,8 @@
-import Image from "next/image";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { NavBar } from "@/components/nav/Navbar";
 import { Button } from "@/components/ui/button";
 import { MoveRight } from "lucide-react";
+import Image from "next/image";
 
 export default function Home() {
   return (
