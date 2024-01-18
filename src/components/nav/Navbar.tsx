@@ -24,7 +24,7 @@ export const NavBar = () => {
   return (
     <nav className="bg-white flex justify-center items-center absolute top-6 w-full gap-12">
       {navItems.map((item) => (
-        <NavLink href={item.href} isTitle={item.isTitle}>
+        <NavLink key={item.name} href={item.href} isTitle={item.isTitle}>
           {item.name}
         </NavLink>
       ))}
