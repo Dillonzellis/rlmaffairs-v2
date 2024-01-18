@@ -18,7 +18,7 @@ export default function Home() {
       />
 
       <MaxWidthWrapper>
-        <section className="py-12">
+        <section className="py-20">
           <div className="flex items-center gap-12">
             <div>
               <h1 className="text-5xl pb-2">
