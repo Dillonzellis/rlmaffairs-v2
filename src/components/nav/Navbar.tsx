@@ -11,7 +11,7 @@ const NavLink = ({ children, href, isTitle }: NavLinkProps) => {
   return (
     <div className="py-4">
       <a
-        className={cn("uppercase", { "text-2xl font-semibold": isTitle })}
+        className={cn("uppercase", { "text-2xl font-bold": isTitle })}
         href={href}
       >
         {children}
