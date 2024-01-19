@@ -39,6 +39,17 @@ export default function Home() {
         <section className="py-20">
           <SmallFeats />
         </section>
+        <section className="py-20">
+          <div className="space-y-4 text-center">
+            <div className="text-5xl">Elevate Your Experience</div>
+            <div>hr</div>
+            <p className="mx-auto max-w-lg leading-8">
+              Discover a realm where intricate design meets natural beauty.
+              Every corner of RLM Affairs is meticulously crafted, ensuring your
+              event is nothing short of extraordinary.
+            </p>
+          </div>
+        </section>
       </MaxWidthWrapper>
     </main>
   );
