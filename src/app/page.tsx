@@ -1,4 +1,5 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import { Section } from "@/components/Section";
 import { SmallFeats } from "@/components/SmallFeats";
 import { NavBar } from "@/components/nav/Navbar";
 import { Button } from "@/components/ui/button";
@@ -19,7 +20,7 @@ export default function Home() {
       />
 
       <MaxWidthWrapper>
-        <section className="py-20">
+        <Section>
           <div className="flex items-center gap-12">
             <div>
               <h1 className="pb-2 text-5xl">
@@ -35,11 +36,11 @@ export default function Home() {
             </div>
             <Image src="/logo-gold.png" alt="logo" width={384} height={384} />
           </div>
-        </section>
-        <section className="py-20">
+        </Section>
+        <Section>
           <SmallFeats />
-        </section>
-        <section className="py-20">
+        </Section>
+        <Section>
           <div className="space-y-4 text-center">
             <div className="text-5xl">Elevate Your Experience</div>
             <div>hr</div>
@@ -49,7 +50,7 @@ export default function Home() {
               event is nothing short of extraordinary.
             </p>
           </div>
-        </section>
+        </Section>
       </MaxWidthWrapper>
     </main>
   );
