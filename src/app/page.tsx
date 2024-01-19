@@ -1,4 +1,5 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import { SmallFeats } from "@/components/SmallFeats";
 import { NavBar } from "@/components/nav/Navbar";
 import { Button } from "@/components/ui/button";
 import { MoveRight } from "lucide-react";
@@ -21,7 +22,7 @@ export default function Home() {
         <section className="py-20">
           <div className="flex items-center gap-12">
             <div>
-              <h1 className="text-5xl pb-2">
+              <h1 className="pb-2 text-5xl">
                 Welcome to{" "}
                 <span className="text-brandingGold-400">RLM Affairs</span>
               </h1>
@@ -34,6 +35,9 @@ export default function Home() {
             </div>
             <Image src="/logo-gold.png" alt="logo" width={384} height={384} />
           </div>
+        </section>
+        <section className="py-20">
+          <SmallFeats />
         </section>
       </MaxWidthWrapper>
     </main>
