@@ -1,3 +1,4 @@
+import { Feature } from "@/components/Feature";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Section } from "@/components/Section";
 import { SmallFeats } from "@/components/SmallFeats";
@@ -50,6 +51,9 @@ export default function Home() {
               event is nothing short of extraordinary.
             </p>
           </div>
+        </Section>
+        <Section>
+          <Feature />
         </Section>
       </MaxWidthWrapper>
     </main>
