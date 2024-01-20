@@ -1,5 +1,6 @@
 import { Feat } from "@/components/Feat";
 import { FullWidthFeat } from "@/components/FullWidthFeat";
+import { HomeSlider } from "@/components/HomeSlider";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Section } from "@/components/Section";
 import { SmallFeats } from "@/components/SmallFeats";
@@ -86,6 +87,11 @@ export default function Home() {
             imageSrc="/catering-feat.jpg"
             imageAlt=""
           />
+        </MaxWidthWrapper>
+      </Section>
+      <Section>
+        <MaxWidthWrapper>
+          <HomeSlider />
         </MaxWidthWrapper>
       </Section>
     </main>
