@@ -1,6 +1,7 @@
 import { Feat } from "@/components/Feat";
 import { FullWidthFeat } from "@/components/FullWidthFeat";
 import { HomeSlider } from "@/components/HomeSlider";
+import { MarqueeSection } from "@/components/MarqueeSection";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Section } from "@/components/Section";
 import { SmallFeats } from "@/components/SmallFeats";
@@ -93,6 +94,9 @@ export default function Home() {
         <MaxWidthWrapper>
           <HomeSlider />
         </MaxWidthWrapper>
+      </Section>
+      <Section>
+        <MarqueeSection />
       </Section>
     </main>
   );
