@@ -1,4 +1,5 @@
 import { Feature } from "@/components/Feature";
+import { FullWidthFeat } from "@/components/FullWidthFeat";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Section } from "@/components/Section";
 import { SmallFeats } from "@/components/SmallFeats";
@@ -56,6 +57,9 @@ export default function Home() {
           <Feature />
         </Section>
       </MaxWidthWrapper>
+      <Section>
+        <FullWidthFeat />
+      </Section>
     </main>
   );
 }
