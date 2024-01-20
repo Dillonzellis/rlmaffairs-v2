@@ -1,4 +1,4 @@
-import { Feature } from "@/components/Feature";
+import { Feat } from "@/components/Feat";
 import { FullWidthFeat } from "@/components/FullWidthFeat";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Section } from "@/components/Section";
@@ -54,7 +54,19 @@ export default function Home() {
           </div>
         </Section>
         <Section>
-          <Feature />
+          <Feat
+            imgLeft
+            title="Venue Feature"
+            content="Floral Showroom: RLM Affairs is a full-service florist serving North
+            Georgia for 40 years. Our award winning designers offer exquisite
+            attention to detail. Whether it’s a single rose or decor for an entire
+            Gala every bloom is hand picked and sourced eco friendly. Our retail
+            storefront offers modern & unique items keeping everyone in mind"
+            btnLabel="Book a Tour"
+            btnHref="/"
+            imageSrc="/venue-feat.jpg"
+            imageAlt=""
+          />
         </Section>
       </MaxWidthWrapper>
       <Section>
