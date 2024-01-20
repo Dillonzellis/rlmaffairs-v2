@@ -72,6 +72,22 @@ export default function Home() {
       <Section>
         <FullWidthFeat />
       </Section>
+      <Section>
+        <MaxWidthWrapper>
+          <Feat
+            title="Renowned Catering"
+            content="Floral Showroom: RLM Affairs is a full-service florist serving North
+            Georgia for 40 years. Our award winning designers offer exquisite
+            attention to detail. Whether it’s a single rose or decor for an entire
+            Gala every bloom is hand picked and sourced eco friendly. Our retail
+            storefront offers modern & unique items keeping everyone in mind"
+            btnLabel="Book a Tour"
+            btnHref="/"
+            imageSrc="/catering-feat.jpg"
+            imageAlt=""
+          />
+        </MaxWidthWrapper>
+      </Section>
     </main>
   );
 }
