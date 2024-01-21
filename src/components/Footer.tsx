@@ -66,7 +66,7 @@ export const Footer = () => {
             Browse Our Packages
           </Button>
           <div className="pt-8 text-sm font-light text-brandingGrey-400">
-            Not finding what you're looking for?
+            Not finding what you&apos;re looking for?
           </div>
           <a
             className="flex items-center justify-center gap-1 text-sm text-slate-50 underline-offset-4 hover:underline"
