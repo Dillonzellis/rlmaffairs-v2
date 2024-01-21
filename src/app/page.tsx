@@ -1,3 +1,4 @@
+import { CTAHome } from "@/components/CTAHome";
 import { Feat } from "@/components/Feat";
 import { FullWidthFeat } from "@/components/FullWidthFeat";
 import { HomeSlider } from "@/components/HomeSlider";
@@ -45,15 +46,7 @@ export default function Home() {
           <SmallFeats />
         </Section>
         <Section>
-          <div className="space-y-4 text-center">
-            <div className="text-5xl">Elevate Your Experience</div>
-            <div>hr</div>
-            <p className="mx-auto max-w-lg leading-8">
-              Discover a realm where intricate design meets natural beauty.
-              Every corner of RLM Affairs is meticulously crafted, ensuring your
-              event is nothing short of extraordinary.
-            </p>
-          </div>
+          <CTAHome />
         </Section>
         <Section>
           <Feat
