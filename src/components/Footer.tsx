@@ -93,13 +93,13 @@ export const Footer = () => {
           <div className="flex flex-col justify-end gap-8 text-slate-50">
             <div className="space-y-2">
               <div>Have Questions?</div>
-              <Button variant="secondary" size="lg">
+              <Button variant="secondary" className="w-full">
                 Contact Us
               </Button>
             </div>
             <div className="space-y-2">
               <div>Have Questions?</div>
-              <Button variant="secondary" size="lg">
+              <Button variant="secondary" className="w-full">
                 Contact Us
               </Button>
             </div>
