@@ -11,6 +11,8 @@ import { Button } from "@/components/ui/button";
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
 
+// TODO: responsive
+
 export default function Home() {
   return (
     <main className="">
@@ -25,6 +27,7 @@ export default function Home() {
       />
 
       <MaxWidthWrapper>
+        {/* TODO: add leaves */}
         <Section>
           <div className="flex items-center gap-12">
             <div>

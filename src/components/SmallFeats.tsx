@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
+// TODO: fix styling of text bubbles
+
 const featsData = [
   {
     title: "Visit us in Gainesville",

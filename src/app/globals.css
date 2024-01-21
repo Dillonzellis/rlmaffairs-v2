@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* TODO: refactor globals to add branding colors into shadcn theme */
+
 @layer base {
   :root {
     --background: 0 0% 100%;

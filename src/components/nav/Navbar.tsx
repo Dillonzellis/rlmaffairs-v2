@@ -1,6 +1,9 @@
 import { navItems } from "@/config/nav-items";
 import { cn } from "@/lib/utils";
 
+// TODO: add nav font
+// TODO: add leaves
+
 interface NavLinkProps {
   children: React.ReactNode;
   href: string;
@@ -22,7 +25,7 @@ const NavLink = ({ children, href, isTitle }: NavLinkProps) => {
 
 export const NavBar = () => {
   return (
-    <nav className="bg-white flex justify-center items-center absolute top-6 w-full gap-12">
+    <nav className="absolute top-6 flex w-full items-center justify-center gap-12 bg-white">
       {navItems.map((item) => (
         <NavLink key={item.name} href={item.href} isTitle={item.isTitle}>
           {item.name}

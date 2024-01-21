@@ -7,6 +7,8 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 
+// TODO: add more slides
+
 const SlideImage = () => {
   return (
     <Image
