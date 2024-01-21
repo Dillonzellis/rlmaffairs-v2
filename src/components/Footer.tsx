@@ -59,12 +59,10 @@ export const Footer = () => {
           <div className="pb-2 text-5xl text-slate-50">
             Create Your Perfect Day with Our All-Inclusive Wedding Packages.
           </div>
-          <div className="pb-8 text-4xl font-light text-brandingGrey-400">
-            Packages start at $30,000 with flexible payment plans available.
+          <div className="mx-auto max-w-[40rem] pb-8 text-3xl font-light text-brandingGrey-400">
+            Packages start at $4,000 with flexible payment plans available.
           </div>
-          <Button variant="secondary" size="lg">
-            Browse Our Packages
-          </Button>
+          <Button variant="secondary">Browse Our Packages</Button>
           <div className="pt-8 text-sm font-light text-brandingGrey-400">
             Not finding what you&apos;re looking for?
           </div>
@@ -77,7 +75,13 @@ export const Footer = () => {
           </a>
         </div>
       </MaxWidthWrapper>
-      <Image src="/footer-sparkler.jpg" alt="" width={1282} height={647} />
+      <Image
+        src="/footer-sparkler.jpg"
+        alt=""
+        width={1282}
+        height={647}
+        className="py-10"
+      />
       <MaxWidthWrapper>
         <div className="grid grid-cols-4">
           {footerLinks.map((col, idx) => (
