@@ -26,6 +26,12 @@ const config = {
           400: "#1B5B32",
           300: "#268046",
         },
+        brandingBlue: {
+          900: "#07111F",
+        },
+        brandingGrey: {
+          400: "#BDB7B7",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -85,4 +91,3 @@ const config = {
 } satisfies Config;
 
 export default config;
-
