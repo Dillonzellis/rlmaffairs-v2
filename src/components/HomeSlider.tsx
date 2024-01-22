@@ -9,11 +9,31 @@ import Image from "next/image";
 
 // TODO: add more slides
 
-const SlideImage = () => {
+const slides = [
+  {
+    src: "/v-hero-slide.jpg",
+    alt: "",
+  },
+  {
+    src: "/slide-2.jpg",
+    alt: "",
+  },
+  {
+    src: "/slide-3.jpg",
+    alt: "",
+  },
+  {
+    src: "/slide-4.jpg",
+    alt: "",
+  },
+] as const;
+
+type slidesType = (typeof slides)[number];
+
+const SlideImage = ({ ...props }: slidesType) => {
   return (
     <Image
-      src="/v-hero-slide.jpg"
-      alt=""
+      {...props}
       width={1016}
       height={610}
       className="w-full rounded-md shadow-lg"
@@ -31,12 +51,11 @@ export const HomeSlider = () => {
     >
       <CarouselPrevious>Previous</CarouselPrevious>
       <CarouselContent>
-        <CarouselItem>
-          <SlideImage />
-        </CarouselItem>
-        <CarouselItem>Slide 2</CarouselItem>
-        <CarouselItem>Slide 3</CarouselItem>
-        <CarouselItem>Slide 4</CarouselItem>
+        {slides.map((slide, i) => (
+          <CarouselItem key={i}>
+            <SlideImage {...slide} />
+          </CarouselItem>
+        ))}
       </CarouselContent>
       <CarouselNext>Next</CarouselNext>
     </Carousel>
